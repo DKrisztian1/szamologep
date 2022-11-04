@@ -1,0 +1,64 @@
+#szam1{
+    position: relative;
+    right: 1.1em;
+    margin-top: 1em;
+}
+
+#szam2{
+    position: relative;
+    right: -2.4em;
+}
+
+label[for="szam1"]{
+    position: relative;
+    left: -1.4em;
+}
+
+label[for="szam2"]{
+    position: relative;
+    right: -3.5em;
+}
+
+#szam1, #szam2{
+    height: 5em;
+    width: 8em;
+    text-align: center;
+}
+
+#muveletek{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#muveletek button{
+    height: 3em;
+    width: 3em;
+    text-align: center;
+    margin-right: 1em;
+    position: relative;
+    right: -1em;
+    font-size: large;
+}
+
+#main{
+    text-align: center;
+}
+
+#eredmenyBox{
+    margin: auto;
+    border: 1px solid black;
+    width: 10em;
+    height: 5em;
+    margin-top: -0.45em;
+    text-align: center;
+}
+
+#eredmenyBox, #title{
+    position: relative;
+    right: -0.5em;
+}
+
+#eredmeny{
+    position: relative;
+    top: 0.8em;
+}

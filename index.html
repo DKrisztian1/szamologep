@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="myscript.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <label for="szam1">Első szám:</label>
+        <label for="szam2">Második szám:</label>
+        <br>
+        <input type="text" id="szam1">
+        
+        <input type="text" id="szam2">
+        <br>
+        <div id="muveletek">
+            <button type="button" onclick="szamol('+')">+</button>
+            <button type="button" onclick="szamol('-')">-</button>
+            <button type="button" onclick="szamol('*')">*</button>
+            <button type="button" onclick="szamol('/')">/</button>
+        </div>
+        <br>
+        <p id="title">Eredmény:</p>
+        <div id="eredmenyBox">
+            <p id="eredmeny"></p>
+        </div>
+    </div>
+</body>
+</html>
